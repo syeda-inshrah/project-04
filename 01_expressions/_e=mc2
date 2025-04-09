@@ -1,0 +1,15 @@
+c: int = 299792458
+
+def main():
+    try:
+      mass_in_kg = float(input("enter kilos of mass"))
+    
+      #applying formula E= m*c**2
+      energy_in_joule: float = mass_in_kg * c ** 2
+      print("E= m*c**2 is ....")
+      print(f"m= {mass_in_kg} kg")
+      print(f"C= {c}m/s")
+      print(f"E= m*c**2 = {energy_in_joule}")
+    except ValueError:
+       print("Invalid value")
+main()

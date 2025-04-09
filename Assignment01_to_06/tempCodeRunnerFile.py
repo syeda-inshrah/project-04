@@ -1,0 +1,1 @@
+input("enter the lenght of the pasword:")
